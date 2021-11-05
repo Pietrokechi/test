@@ -14,4 +14,3 @@ jobs:
         runs-on: windows-latest
         steps:
             - name: Step two
-              run: "Get-ChildItem Env: | Sort-Object Name"
