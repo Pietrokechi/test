@@ -15,7 +15,7 @@ jobs:
         runs-on: windows-latest
         steps:
             - name: Step three
-              run: echo $(date+"%x")
+              run: echo "bedo"
 
            
 
