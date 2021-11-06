@@ -15,8 +15,6 @@ jobs:
         runs-on: windows-latest
         steps:
             - name: Step three
-              run: echo "bedo"
-
            
 
 
