@@ -8,8 +8,15 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Step two
-              run: env | sort
- 
+              run: printf "%s\n" "$now"
+    job2:
+        name: Second Job
+        needs: job1
+        runs-on: windows-latest
+        steps:
+            - name: Step three
+              run: echo $(date+"%x")
+
            
 
 
